@@ -1,1 +1,1 @@
-alx-low_level_programming tasks
+chunk of assignments for c variables
