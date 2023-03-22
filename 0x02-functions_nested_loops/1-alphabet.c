@@ -1,19 +1,17 @@
-#include "main.c"
+#include "main.h"
 /**
  * print_alphabet - prints alphabet in order
  *
- * Return: alawys 0
  */
 
 void print_alphabet(void)
 {
-	char *j = "abcdefghijklmnopqrstuvwxyz";
-
-	while (*j)
+	int i;
+	for(i = 'a'; i <= 'z'; i++)
 	{
-		_putchar(*j);
-		x++;
+		_putchar(i);
 	}
-	return (0);
+	_putchar('\n');
+
 }
 
