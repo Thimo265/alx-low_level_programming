@@ -1,21 +1,22 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_char - prints _putchar
+ * main - prints _putchar
  *
  * description - a program will print every character on a new line
  *
  * Return: always 0
  */
-char print_char(void)
+int main(void)
 {
-	char *i = " _putchar";
+	char *i = "_putchar";
 
 	while (*i)
 	{
 		_putchar(*i);
 		i++;
 	}
-
+	_putchar('\n');
 	return (0);
 }
